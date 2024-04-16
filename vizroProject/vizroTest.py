@@ -89,11 +89,11 @@ second_page = vm.Page(
             targets=["scatter_iris.color_discrete_map.virginica",
                         "hist_iris.color_discrete_map.virginica"],
             selector=vm.Dropdown(
-                options=["#ff5267", "#3949ab"], multi=False, value="#3949ab", title="Color Virginica"),
+                options=["#ff5267", "#3949ab"], multi=False, value="#3949ab", title="颜色切换"),
             ),
         vm.Parameter(
             targets=["scatter_iris.opacity"],
-            selector=vm.Slider(min=0, max=1, value=0.8, title="Opacity"),
+            selector=vm.Slider(min=0, max=1, value=0.8, title="透明度"),
         ),
     ],
 )
@@ -140,16 +140,6 @@ fourth_page = vm.Page(
                     actions=[
                         vm.Action(function=filter_interaction(targets=["scatter_relation_2007"]))
                     ],
-                ),
-                vm.Graph(
-                    figure=px.box(
-                        df_gapminder,
-                        x="continent",
-                        y="lifeExp",
-                        color="continent",
-                        custom_data=["continent"],
-                    ),
-                    actions=[vm.Action(function=filter_interaction(targets=["scatter_relation_2007"]))],
                 ),
                 vm.Graph(
                     id="scatter_relation_2007",
