@@ -19,7 +19,7 @@
 
 ![](https://raw.githubusercontent.com/LuochuanAD/BlogSourceImage/master/BlogSourceImage/BlogSourceImage2024/vizro_image3.png)
 
-##Python对Excel的各种处理
+## Python对Excel的各种处理
 
 ### 案例一 (对比2个Excel的不同,将不同的地方标记成黄色,并生成2个Excel结果文件来展示黄色不同的地方.)
 
