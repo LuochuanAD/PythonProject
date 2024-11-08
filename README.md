@@ -33,6 +33,12 @@ Blog:
 [https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/](https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/ "https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/")
 ![](https://raw.githubusercontent.com/LuochuanAD/PythonProject/refs/heads/main/splitColumn/splitColumn_screenshot.png)
 
+### 案例三 (将testData.csv某一列的为Null的数据, 在rultes.xlsx中查找对应正确的数据,修改testData.csv的)
+
+Blog: 
+[https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/](https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/ "https://strictfrog.com/2024/11/01/%E5%AF%B9Excel%E5%A4%84%E7%90%86%E7%9A%84%E5%90%84%E7%A7%8DPython/")
+
+![](https://raw.githubusercontent.com/LuochuanAD/PythonProject/refs/heads/main/changeForCsv/changeForCsv_screenshot.png)
 
 
 
